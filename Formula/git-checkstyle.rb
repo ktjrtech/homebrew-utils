@@ -2,8 +2,10 @@ class GitCheckstyle < Formula
   desc "git checkstyle utils"
   homepage "https://gitlab.ktjr.com/open/cli/git-checkstyle"
   url "https://gitlab.ktjr.com/open/cli/git-checkstyle/repository/archive.zip?ref=master"
-  sha256 "7c9e7cd80099a274c0b59ad4cc1d17c681d6c27d16ff1cbf171b4e958d8bcd64"
+  sha256 "1922043cca9626f3324a58a023a229f3356a1dced5088a910066db581e31cfe7"
   version "1.0.0"
+
+  depends_on "ktjrtech/utils/checkstyle88" => :recommended
 
   def install
     bin.install 'git-checkstyle'
