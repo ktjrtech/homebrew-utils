@@ -10,7 +10,7 @@ class GitCheckstyle < Formula
 
   def install
     bin.install 'git-checkstyle'
+    man1.install 'git-checkstyle.1'
     lib.install 'ktjr-git-checkstyle-lib'
-    system "cp -f git-checkstyle.1 /usr/local/share/man/man1/"
   end
 end
