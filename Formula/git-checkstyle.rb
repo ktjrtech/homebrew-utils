@@ -1,9 +1,9 @@
 class GitCheckstyle < Formula
   desc "git checkstyle utils"
   homepage "https://gitlab.ktjr.com/open/cli/git-checkstyle"
-  url "https://gitlab.ktjr.com/open/cli/git-checkstyle/repository/archive.zip?ref=1.1.2"
-  sha256 "961d47c9acae351762aed79ade164971c00b0d7e940544e9c9eb6a2559144f33"
-  version "1.1.2"
+  url "https://gitlab.ktjr.com/open/cli/git-checkstyle/repository/archive.zip?ref=1.1.3"
+  sha256 "3753bde20a2a8378baf3005f7826389c1fe3f9dcbb86d7fa635c7c57dbaa1e7b"
+  version "1.1.3"
 
   depends_on "ktjrtech/utils/checkstyle88" => :recommended
   depends_on "ktjrtech/utils/p3c-pmd" => :recommended
